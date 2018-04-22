@@ -1,0 +1,24 @@
+
+-------------------------------------
+Projeto Domonstração NetCore com DDD
+-------------------------------------
+
+Este projeto foi criado com Net Core com as seguintes caracteristicas:
+- Abordagem DDD
+- Web API com autentcação usando JWT
+- ORM Entitity Framework Core(possibilidade de usar o Dapper também)
+- Padrões IOC + DI
+- Banco de dados SQlite(mas pode ser usado qualquer banco, pois a camada de repositório é agnóstica)
+- Swagger para testes das APIs
+- Testes unitários na camada de repositório e Web Api
+- Programa Console para testar as chamadas das Apis
+
+
+OBS: Foi usado o aplicativo SQLiteStudio que pode se baixado em https://sqlitestudio.pl/index.rvt?act=download
+
+
+Referências usadas
+------------------
+https://weblogs.asp.net/andrebaltieri/implementando-bearer-autentication-com-webapi-e-owin
+https://medium.com/@renato.groffe/asp-net-core-2-0-autentica%C3%A7%C3%A3o-em-apis-utilizando-jwt-json-web-tokens-4b1871efd
+https://github.com/EduardoPires/EquinoxProject
