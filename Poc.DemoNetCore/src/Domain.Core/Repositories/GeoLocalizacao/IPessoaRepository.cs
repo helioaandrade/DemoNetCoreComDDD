@@ -1,4 +1,5 @@
-﻿using Poc.DemoNetCore.Domain.Core.Entities.GeoLocalizacao;
+﻿using Poc.DemoNetCore.Domain.Core.Dto;
+using Poc.DemoNetCore.Domain.Core.Entities.GeoLocalizacao;
 using Poc.DemoNetCore.Domain.Core.Repositories.Base;
 using System;
 using System.Collections.Generic;
@@ -11,5 +12,6 @@ namespace Poc.DemoNetCore.Domain.Core.Repositories.GeoLocalizacao
        , IPesquisa<Pessoa>
        , ILeitura<Pessoa>
     {
+        List<Tracking> ObterAmigosMaisProximo(string Nome);
     }
 }

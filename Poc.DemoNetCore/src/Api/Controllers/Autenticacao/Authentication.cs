@@ -32,7 +32,7 @@ namespace Api.Controllers.Autenticacao
                 var client = new RestClient(UrlApi + "/Token");
                 var request = new RestRequest { Method = Method.POST };
 
-                var param = string.Format("grant_type=password&username={0}&password={1}", login, senha);
+                var param = string.Format("grant_type=password&login={0}&senha={1}", login, senha);
 
                 request.Parameters.Clear();
                 request.AddParameter("application/x-www-form-urlencoded", param, ParameterType.RequestBody);

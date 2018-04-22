@@ -1358,6 +1358,7 @@
       "Infra/1.0.0": {
         "dependencies": {
           "Dapper": "1.50.4",
+          "Infra.Utils": "1.0.0",
           "Microsoft.Data.Sqlite": "2.0.0",
           "Microsoft.EntityFrameworkCore": "2.0.1",
           "Microsoft.EntityFrameworkCore.Design": "2.0.1",
@@ -1373,7 +1374,8 @@
       "Infra.Utils/1.0.0": {
         "dependencies": {
           "MailKit": "2.0.1",
-          "Newtonsoft.Json": "10.0.3"
+          "Newtonsoft.Json": "10.0.3",
+          "Poc.DemoNetCore.Domain.Core": "1.0.0"
         },
         "runtime": {
           "Infra.Utils.dll": {}

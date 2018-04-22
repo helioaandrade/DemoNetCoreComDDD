@@ -80,3 +80,5 @@ C:\Poc\Poc.DemoNetCore\src\Infra\obj\Debug\netcoreapp2.0\Infra.AssemblyInfoInput
 C:\Poc\Poc.DemoNetCore\src\Infra\obj\Debug\netcoreapp2.0\Infra.AssemblyInfo.cs
 C:\Poc\Poc.DemoNetCore\src\Infra\obj\Debug\netcoreapp2.0\Infra.dll
 C:\Poc\Poc.DemoNetCore\src\Infra\obj\Debug\netcoreapp2.0\Infra.pdb
+C:\Poc\Poc.DemoNetCore\src\Infra\bin\Debug\netcoreapp2.0\Infra.Utils.dll
+C:\Poc\Poc.DemoNetCore\src\Infra\bin\Debug\netcoreapp2.0\Infra.Utils.pdb

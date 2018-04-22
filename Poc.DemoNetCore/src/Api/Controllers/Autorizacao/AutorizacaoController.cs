@@ -19,7 +19,6 @@ namespace Api.Controllers.Autorizacao
     {
         private TokenConfiguration _tokenConfiguration;
 
-
         [EnableCors("Cors")]
         [HttpGet]
         [Route("api/Autorizacao/Token")]

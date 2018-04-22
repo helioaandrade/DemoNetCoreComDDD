@@ -24,3 +24,7 @@ C:\Poc\Poc.DemoNetCore\src\Infra.Utils\obj\Debug\netcoreapp2.0\Infra.Utils.Assem
 C:\Poc\Poc.DemoNetCore\src\Infra.Utils\obj\Debug\netcoreapp2.0\Infra.Utils.AssemblyInfo.cs
 C:\Poc\Poc.DemoNetCore\src\Infra.Utils\obj\Debug\netcoreapp2.0\Infra.Utils.dll
 C:\Poc\Poc.DemoNetCore\src\Infra.Utils\obj\Debug\netcoreapp2.0\Infra.Utils.pdb
+C:\Poc\Poc.DemoNetCore\src\Infra.Utils\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.dll
+C:\Poc\Poc.DemoNetCore\src\Infra.Utils\bin\Debug\netcoreapp2.0\Poc.DemoNetCore.Domain.Core.dll
+C:\Poc\Poc.DemoNetCore\src\Infra.Utils\bin\Debug\netcoreapp2.0\Poc.DemoNetCore.Domain.Core.pdb
+C:\Poc\Poc.DemoNetCore\src\Infra.Utils\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.pdb

@@ -6,19 +6,38 @@ Projeto Domonstração NetCore com DDD
 Este projeto foi criado com Net Core com as seguintes caracteristicas:
 - Abordagem DDD
 - Web API com autentcação usando JWT
-- ORM Entitity Framework Core(possibilidade de usar o Dapper também)
-- Padrões IOC + DI
 - Banco de dados SQlite(mas pode ser usado qualquer banco, pois a camada de repositório é agnóstica)
-- Swagger para testes das APIs
+- ORM Entitity Framework Core(possibilidade de usar o SqlServer/MongoDb/Micro ORM Dapper, etc)
+- Padrões IOC + DI
+- Swagger integrado no projeto da camada da API para facilitar os testes das APIs
+- Variáveis de configuração estão definidas no arquivo AppSettings.Json
 - Testes unitários na camada de repositório e Web Api
-- Programa Console para testar as chamadas das Apis
 
+- Programa Console para testar as chamadas das Apis( foi utizado o componente RestSharp para consumar os serviços das APis)
+   - install-package restsharp no projeto ConsoleTeste
 
-OBS: Foi usado o aplicativo SQLiteStudio que pode se baixado em https://sqlitestudio.pl/index.rvt?act=download
+-----------
+Observaçoes
+-----------
+(1) Foi usado o aplicativo SQLiteStudio que pode se baixado em https://sqlitestudio.pl/index.rvt?act=download
+(2) O banco de dados está na pasta DemoNetCoreComDDD/Poc.DemoNetCore/db/demonetcore.db
+(3) Os scripts de banco de dados estão na pasta DemoNetCoreComDDD/Poc.DemoNetCore/Scripts/
+ 
 
+--------------------------------------
+Procedimentos para executar os testes
+--------------------------------------
+1) Configurar o projeto API(Pasta Serviços/Api) com "SET AS Startup Project)
+   Automaticamente, abrirá um Browser no endereço localhost:8090/swagger
+   O projeto da API com o Swagger integrado visa facilitar os testes das APIS(Opcional)
+ 
+----------------------
+Links de Referências 
+----------------------
 
-Referências usadas
-------------------
 https://weblogs.asp.net/andrebaltieri/implementando-bearer-autentication-com-webapi-e-owin
 https://medium.com/@renato.groffe/asp-net-core-2-0-autentica%C3%A7%C3%A3o-em-apis-utilizando-jwt-json-web-tokens-4b1871efd
+https://gago.io/blog/jwt-no-asp-net-core-standalone/
+JWT no ASP.NET Core – Standalone
 https://github.com/EduardoPires/EquinoxProject
+

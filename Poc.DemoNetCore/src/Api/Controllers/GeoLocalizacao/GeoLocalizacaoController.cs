@@ -54,6 +54,8 @@ namespace Api.Controllers.GeoLocalizacao
         {
             try
             {
+                String token = this.Request.Headers["Authorization"];
+
                 var result = _pessoaRepository.List();
                 return await Response(result);
             }
@@ -69,13 +71,13 @@ namespace Api.Controllers.GeoLocalizacao
 
         [EnableCors("Cors")]
         [HttpGet]
-        [Route("api/GeoLocalizacao/ListarAmigosMaisProximos")]
+        [Route("api/GeoLocalizacao/AmigosMaisProximos/Listar/{Nome}")]
         //[Authorize]
-        public async Task<IActionResult> ListarAmigosMaisProximos()
+        public async Task<IActionResult> ListarAmigosMaisProximos(string Nome)
         {
             try
             {
-                var result = _pessoaRepository.List();
+                var result = _pessoaRepository.ObterAmigosMaisProximo(Nome);
                 return await Response(result);
             }
             catch (Exception ex)
