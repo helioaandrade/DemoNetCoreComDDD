@@ -1,0 +1,24 @@
+﻿<hr size="42" char="=" /><br />
+<t size="-42">Vendas por departamento</t><br />
+<hr size="42" char="=" />
+<br />
+<t size="12">Categoria</t>
+<t size="-15">Valor</t>
+<t size="-12">%</t>
+<br />
+<hr size="42" char="=" /><br />
+<repeat name="ListaVendaDepartamento">
+<t size="12">{NomeDepartamento}</t>
+<t size="-15">{Valor:0,00}</t>
+<t size="-12">{Percentual:0,00}</t>
+<br />
+</repeat>
+<br />
+<hr size="42" char="-" /><br />
+<t size="12">TOTAL</t>
+<t size="-15">{VendasPorDepartamento.ValorTotal}</t>
+<br />
+<hr size="42" char="=" /><br />
+<br />
+<br size="2" />
+

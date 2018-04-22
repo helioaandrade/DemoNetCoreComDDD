@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <Configurations>Debug;Release;aa</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>LinkedGourmet.FrenteDeCaixa.Domain.Shared</AssemblyName>
+    <RootNamespace>LinkedGourmet.FrenteDeCaixa.Domain.Shared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Runner\**" />
+    <Compile Remove="Utils\Helpers\Extensions\**" />
+    <EmbeddedResource Remove="Runner\**" />
+    <EmbeddedResource Remove="Utils\Helpers\Extensions\**" />
+    <None Remove="Runner\**" />
+    <None Remove="Utils\Helpers\Extensions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CG.Pluralization" Version="0.2018.2.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web">
+      <HintPath>..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

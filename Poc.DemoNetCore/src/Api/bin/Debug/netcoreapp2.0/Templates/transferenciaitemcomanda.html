@@ -1,0 +1,35 @@
+﻿<hr size="42" char="=" /><br />
+<t size="~42">TRANSFERÊNCIA DE COMANDAS</t><br />
+<hr char="=" size="42" /><br />
+Data: {DataEntrada:dd/MM/yyyy HH:mm}<br />
+Solicitante: {Solicitante}<br />
+Autorizado Por: {Autorizador}<br />
+<br />
+<hr size="42" />
+<br />
+De   Mesa >  <t size="3">{MesaOrigem}</t> -  Comanda  >  {ComandaOrigem}
+<br />
+Para Mesa >  <t size="3">{MesaDestino}</t> -  Comanda  >  {ComandaDestino}
+<br />
+<hr char="=" size="42" />
+<br />
+<t size="20">Qtd.</t><t size="22">Produto</t>
+<repeat name="PedidoItens">
+    <br />
+    <t size="20">{Quantidade:0.00}</t><t size="22">{Produto.Abreviacao}</t><br />
+    <t size="40">->{Funcionario}</t>
+</repeat>
+<br />
+<hr char="=" size="42" />
+<br />
+<br size="5" />
+<hr char="_" /><br />
+ASSINATURA GERENCIA
+<br size="5" />
+<hr char="_" /><br />
+ASSINATURA SOLICITANTE
+<br />
+<hr size="42" /><br />
+<t size="~43">www.linkedgourmet.com.br / (11) 30946867</t>
+<br size="5" />
+<cut />

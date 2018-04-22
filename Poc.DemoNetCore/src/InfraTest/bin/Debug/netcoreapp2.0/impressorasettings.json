@@ -1,0 +1,29 @@
+﻿{
+  "Encoding": "utf-8",
+  "TemplatePath": "Templates",
+  "Impressoras": [ "Daruma DR700", "EPSON", "Elgin i9", "Bematech" ],
+  "Fonts": [
+    {
+      "Nome": "1",
+      "Default": 55,
+      "Bold": 51,
+      "MaxLength": "29"
+    },
+    {
+      "Nome": "2",
+      "Default": 16,
+      "Bold": 24
+    },
+    {
+      "Nome": "3",
+      "Default": 0,
+      "MaxLength": "29",
+      "Bold": 42
+    },
+    {
+      "Nome": "4",
+      "Default": 1,
+      "Bold": 9
+    }
+  ]
+}

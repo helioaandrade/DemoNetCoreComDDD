@@ -1,0 +1,59 @@
+﻿<font size="3"/>
+<t size="30">{NomeLoja}</t>
+<br size="2" />
+MESA    --> {MesaNumero}
+<br/>
+<hr size="42"/>
+<br />
+Operador : {CaixaNome}
+<br/>
+Entrada: {DataEntrada:dd/MM/yyyy HH
+:mm:ss}
+<br/>
+#{PedidoID}/{QuantidadePessoas} Controle Interno S/Valor Fiscal
+<br />
+<hr size="42" char="="/>
+<br />
+<t size="~42">CONFERENCIA DE MESA</t>
+<br />
+<hr size="42" char="=" />
+<br />
+<t size="22">Produto</t>
+<t size="8">Qtd.</t>
+<t size="6">Unit.</t>
+<t size="-6">Total</t>
+<repeat name="ProdutosConsumidos">
+<br />
+<t size="18">{NomeProduto}</t>
+<t size="-8">{Quantidade:0.000}</t>
+<t size="-8">{PrecoUnitario:0.00}</t>
+<t size="-8">{PrecoTotal:0.00}</t>
+</repeat>
+<br />
+<hr size="42"/>
+<br />
+<t size="22">Sub-Total </t>
+<t size="~10"> -->  R$</t>
+<t size="-10">{ValorSubTotal}</t>
+<br />
+<t size="22">Opcional </t>
+<t size="~10"> -->  R$</t>
+<t size="-10">{ValorOpcionais}</t>
+<br />
+<hr size="42"  />
+<br />
+<t size="22">TOTAL </t>
+<t size="~10"> -->  R$</t>
+<t size="-10">{ValorTotal}</t>
+<br/>
+<hr size="42" char="=" />
+<br />
+MESA        ->  {MesaNumero}
+<br />
+Permanencia   : {TempoPermanencia}
+<br />
+Qtd. Pessoas  : {QuantidadePessoas}
+<br />
+Total Individ.: R$ {TotalIndividual}
+<br size="5"/>
+<cut/>

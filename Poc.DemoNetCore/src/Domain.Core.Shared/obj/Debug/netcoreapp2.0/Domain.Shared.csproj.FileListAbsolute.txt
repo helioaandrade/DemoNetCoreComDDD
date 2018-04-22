@@ -1,0 +1,17 @@
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.deps.json
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.dll
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.pdb
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.AssemblyInfoInputs.cache
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.AssemblyInfo.cs
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.dll
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.pdb
+C:\Poc\LinkedGourmet.FrenteDeCaixa\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.csprojResolveAssemblyReference.cache
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.deps.json
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.dll
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\bin\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.pdb
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.csproj.CoreCompileInputs.cache
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.AssemblyInfoInputs.cache
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\Domain.Shared.AssemblyInfo.cs
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.dll
+C:\Poc\Poc.DemoNetCore\src\Domain.Core.Shared\obj\Debug\netcoreapp2.0\LinkedGourmet.FrenteDeCaixa.Domain.Shared.pdb

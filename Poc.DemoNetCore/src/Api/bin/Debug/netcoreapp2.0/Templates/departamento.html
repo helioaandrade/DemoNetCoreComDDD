@@ -1,0 +1,42 @@
+﻿Mesa ---> {NumeroMesa}
+<br />
+<hr size="42" />
+<br />
+{Departamento}<br />
+{Data}
+<br />
+<hr size="42" />
+<br />
+<t size="8">Qtd.</t><t size="34">Produto</t>
+<br />
+<repeat name="PedidoItem">
+<t size="8">{Quantidade:0.00}</t><t size="34">{Abreviacao}</t><br />
+<t size="9" show="Observacao"> </t><t size="34" show="Observacao">Obs {Observacao}</t><br />
+<repeat name="Complementos">
+<t size="8">{Quantidade:0.00}</t><t size="34"> -> {Nome}</t>
+<br />
+</repeat>
+<br />
+</repeat>
+<repeat name="PedidoItemCombo">
+<t size="8">{Quantidade:0.00}</t><t size="34">{Abreviacao}</t>
+<br show="Observacao" /><t size="9" show="Observacao"> </t><t size="34" show="Observacao">Obs {Observacao}</t>
+<br />
+<repeat name="Combo">
+<t size="8">{Quantidade:0.00}</t><t size="34"> -> {Nome}</t>
+<br show="Observacao" /><t size="9" show="Observacao"> </t><t size="34" show="Observacao">Obs {Observacao}</t>
+<br />
+<repeat name="ComboComplemento">
+<t size="8">{Quantidade:0.00}</t><t size="34"> --> {Nome}</t>
+<br show="Observacao" /><t size="9" show="Observacao"> </t><t size="34" show="Observacao">Obs {Observacao}</t>
+<br />
+</repeat>
+</repeat>
+<br />
+</repeat>
+<t size="~42">------</t> <br />
+FUNCIONÁRIO --> {Garcom}
+<br />
+<hr size="42" />
+<br size="5" />
+<cut />

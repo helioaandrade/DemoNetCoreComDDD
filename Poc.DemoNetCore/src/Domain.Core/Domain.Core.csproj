@@ -1,0 +1,107 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Poc.DemoNetCore.Domain.Core</AssemblyName>
+    <RootNamespace>Poc.DemoNetCore.Domain.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\NFCE\**" />
+    <Compile Remove="Commands\Pocket\**" />
+    <Compile Remove="Commands\Results\CardapioProduto\**" />
+    <Compile Remove="Commands\Results\Configuracao\**" />
+    <Compile Remove="Commands\Results\ControleCliente\**" />
+    <Compile Remove="Commands\Results\ControleComanda\**" />
+    <Compile Remove="Commands\Results\ControleConfiguracaoSistema\**" />
+    <Compile Remove="Commands\Results\ControleEstorno\**" />
+    <Compile Remove="Commands\Results\ControlePedido\**" />
+    <Compile Remove="Commands\Results\ControleVersao\**" />
+    <Compile Remove="Commands\Results\Delivery\**" />
+    <Compile Remove="Commands\Results\IdentificacaoAcesso\**" />
+    <Compile Remove="Commands\Results\LoginUsuario\**" />
+    <Compile Remove="Commands\Results\MarcaPerifericos\**" />
+    <Compile Remove="Commands\Results\Monitoria\**" />
+    <Compile Remove="Commands\Results\Pagamento\**" />
+    <Compile Remove="Commands\Results\PendenciaPagamento\**" />
+    <Compile Remove="Commands\Results\PreConta\**" />
+    <Compile Remove="Commands\Results\RedeEstabelecimento\**" />
+    <Compile Remove="Commands\Results\ResumoConta\**" />
+    <Compile Remove="Commands\Results\Sangria\**" />
+    <Compile Remove="Commands\Results\Terminais\**" />
+    <Compile Remove="Commands\Results\Transferencias\**" />
+    <Compile Remove="Commands\SAT\**" />
+    <EmbeddedResource Remove="Commands\NFCE\**" />
+    <EmbeddedResource Remove="Commands\Pocket\**" />
+    <EmbeddedResource Remove="Commands\Results\CardapioProduto\**" />
+    <EmbeddedResource Remove="Commands\Results\Configuracao\**" />
+    <EmbeddedResource Remove="Commands\Results\ControleCliente\**" />
+    <EmbeddedResource Remove="Commands\Results\ControleComanda\**" />
+    <EmbeddedResource Remove="Commands\Results\ControleConfiguracaoSistema\**" />
+    <EmbeddedResource Remove="Commands\Results\ControleEstorno\**" />
+    <EmbeddedResource Remove="Commands\Results\ControlePedido\**" />
+    <EmbeddedResource Remove="Commands\Results\ControleVersao\**" />
+    <EmbeddedResource Remove="Commands\Results\Delivery\**" />
+    <EmbeddedResource Remove="Commands\Results\IdentificacaoAcesso\**" />
+    <EmbeddedResource Remove="Commands\Results\LoginUsuario\**" />
+    <EmbeddedResource Remove="Commands\Results\MarcaPerifericos\**" />
+    <EmbeddedResource Remove="Commands\Results\Monitoria\**" />
+    <EmbeddedResource Remove="Commands\Results\Pagamento\**" />
+    <EmbeddedResource Remove="Commands\Results\PendenciaPagamento\**" />
+    <EmbeddedResource Remove="Commands\Results\PreConta\**" />
+    <EmbeddedResource Remove="Commands\Results\RedeEstabelecimento\**" />
+    <EmbeddedResource Remove="Commands\Results\ResumoConta\**" />
+    <EmbeddedResource Remove="Commands\Results\Sangria\**" />
+    <EmbeddedResource Remove="Commands\Results\Terminais\**" />
+    <EmbeddedResource Remove="Commands\Results\Transferencias\**" />
+    <EmbeddedResource Remove="Commands\SAT\**" />
+    <None Remove="Commands\NFCE\**" />
+    <None Remove="Commands\Pocket\**" />
+    <None Remove="Commands\Results\CardapioProduto\**" />
+    <None Remove="Commands\Results\Configuracao\**" />
+    <None Remove="Commands\Results\ControleCliente\**" />
+    <None Remove="Commands\Results\ControleComanda\**" />
+    <None Remove="Commands\Results\ControleConfiguracaoSistema\**" />
+    <None Remove="Commands\Results\ControleEstorno\**" />
+    <None Remove="Commands\Results\ControlePedido\**" />
+    <None Remove="Commands\Results\ControleVersao\**" />
+    <None Remove="Commands\Results\Delivery\**" />
+    <None Remove="Commands\Results\IdentificacaoAcesso\**" />
+    <None Remove="Commands\Results\LoginUsuario\**" />
+    <None Remove="Commands\Results\MarcaPerifericos\**" />
+    <None Remove="Commands\Results\Monitoria\**" />
+    <None Remove="Commands\Results\Pagamento\**" />
+    <None Remove="Commands\Results\PendenciaPagamento\**" />
+    <None Remove="Commands\Results\PreConta\**" />
+    <None Remove="Commands\Results\RedeEstabelecimento\**" />
+    <None Remove="Commands\Results\ResumoConta\**" />
+    <None Remove="Commands\Results\Sangria\**" />
+    <None Remove="Commands\Results\Terminais\**" />
+    <None Remove="Commands\Results\Transferencias\**" />
+    <None Remove="Commands\SAT\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Util\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="restsharp" Version="106.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Core.Shared\Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

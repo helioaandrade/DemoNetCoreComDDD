@@ -1,0 +1,29 @@
+﻿<hr char="=" size="42" /><br />
+<t size="~42">TRANSFERÊNCIA DE COMANDAS</t><br />
+<hr char="=" size="42" /><br />
+Data: {DataEntrada:dd/MM/yyyy HH:mm}<br />
+Solicitante: {Solicitante}<br />
+Autorizado Por: {Autorizador}<br />
+<br />
+<hr size="42" />
+<br />
+De   Mesa >  <t size="3">{MesaOrigem}</t> <!---  Comanda  >  {ComandaOrigem}-->
+<br />
+Para Mesa >  <t size="3">{MesaDestino}</t> <!---  Comanda  >  {ComandaDestino}-->
+<br />
+<hr char="=" size="42" />
+<br />
+<t size="20">Comanda(s)</t><t size="22">Identificacao</t>
+<repeat name="Comandas">
+    <br />
+    <t size="20">- {NumeroOrigem} -> {Numero}</t><t size="22">{Identificacao}</t><br />
+</repeat>
+<hr char="=" size="42" />
+<br size="3" />
+<hr char="_" /><br />
+ASSINATURA GERENCIA
+<br size="3" />
+<hr char="_" /><br />
+ASSINATURA SOLICITANTE
+<br size="4" />
+<cut />

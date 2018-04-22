@@ -1,0 +1,92 @@
+﻿<t size="~42">{xFant}</t>
+<br />
+<t size="~42">{xNome}</t>
+<br />
+<t size="~42">{xLgr} {nro}</t>
+<br />
+<t size="~42">{xBairro} - {xMun} - {CEP}</t>
+<br />
+<t size="~42">CNPJ:{CNPJ: 00.000.000/0000-00} <t />
+<br />
+<t size="~42">IE:{IE}</t>
+<br />
+<t size="~42">IM:{IM}</t>
+<br />
+<hr size="42" />
+<br />
+<t size="~42">EXTRATO No.{nCFe}</t><br />
+<t size="~42">CUPOM FISCAL ELETRONICO - SAT</t><br />
+<br />
+<hr size="42" />
+<br />
+<t size="42">CPF/CNPJ do Consumidor: {NumeroDocumento}</t>
+<br />
+<hr size="42" />
+<br />
+<t size="4"># |</t>
+<t size="5">COD |</t>
+<t size="5">QTD |</t>
+<t size="5">UN |</t>
+<t size="11">VL UN R$ |</t>
+<t size="12">(VLTR R$)*</t>
+<br />
+<t size="6">DESC |</t>
+<t size="36">VL ITEM R$</t>
+<br />
+<hr size="42" />
+<br />
+<repeat name="det">
+<t size="2">{nItem}</t>
+<repeat name="prod">
+<t size="8">{cProd}</t>
+<t size="8">{qCom:0.000}</t>
+<t size="8">{uCom} X </t>
+<t size="8">
+{vUnCom}<t />
+<t size="-8">({vItem})</t>
+<br />
+<t size="30">{xProd}</t>
+<t size="-12">{vProd}</t>
+<br />
+</repeat>
+</repeat>
+<t size="32">TOTAL R$ </t>
+<t size="-10">{vCFe}</t>
+<br />
+<t size="32">{cMP} </t>
+<t size="-10">{vMP}</t>
+<br />
+<t show="vDesc" size="32">Desconto</t>
+<t show="vDesc" size="-10">{vDesc}</t>
+<t show="vDesc"><br/></t>
+<t size="32">Troco </t>
+<t size="-10">{vTroco}</t>
+<br />
+<br />
+<t size="40">ICMS a ser recolhido conforme LC 123/2006</t><br />
+<t size="~40">- Simples Nacional - </t>
+<br />
+<hr size="42" />
+<br />
+<t size="30">OBSERVAÇÕES DO CONTRIBUINTE</t>
+<br />
+{infCpl}
+<br />
+Valor aproximado dos tributos deste cupom<br />
+<t size="32">
+(conforme Lei Fed. 12.741/2012)<t size="-10">R$ {vCFeLei12741}</t><br />
+<t size="32">*valor aproximado dos tributos do item</t>
+<br />
+<hr size="42" />
+<br />
+<t size="~42">SAT No. {nserieSAT}</t><br />
+<t size="~42">{dEmi} {hEmi}</t><br />
+<t size="~42">{Id}</t>
+<br />
+<br />
+(Espaco Reservado para QRCode)
+<br size="5" />
+<t size="42">Consulte QR Code no aplicativo "De olho na nota"</t><br />
+<t size="42">Disponivel na AppStore(Apple)/PlayStore(Android)</t><br />
+<br size="5" />
+<cut />

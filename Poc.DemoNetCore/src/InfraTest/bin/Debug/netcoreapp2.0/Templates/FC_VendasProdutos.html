@@ -1,0 +1,38 @@
+﻿<hr size="42" char="=" /><br />
+FECHAMENTO CAIXA (Produtos)<br />
+<hr size="42" char="=" /><br />
+<br />
+<hr size="42" char="-" /><br />
+<t size="12">Produto</t>
+<t size="-10">V. Unit</t>
+<t size="-10">Qtde.</t>
+<t size="-10">Total</t>
+<br />
+<repeat name="CategoriasProdutos">
+    <hr size="42" char="-" /><br />
+    <t size="30">-->{NomeCategoria}</t>
+    <br />
+    <repeat name="Produtos">
+        <t size="12">{NomeProduto}</t>
+        <t size="-10">{ValorUnitario}</t>
+        <t size="-10">{Quantidade}</t>
+        <t size="-10">{ValorTotal}</t>
+        <br />
+    </repeat>
+    <hr size="42" char="-" /><br />
+    <t size="12">Total Grupo</t>
+    <t size="-10">{ValorTotalUnitarioGrupo}</t>
+    <t size="-10">{QuantidadeTotalGrupo}</t>
+    <t size="-10">{ValorTotalGrupo}</t>
+    <br />
+</repeat>
+<hr size="42" char="=" />
+<br />
+<t size="22">Total Geral</t>
+<t size="-10">{ProdutoQuantidadeTotalGeral}</t>
+<t size="-10">{ProdutoValorTotalGeral}</t>
+<br />
+<hr size="42" char="=" />
+<br />
+<br size="2" />
+

@@ -1,0 +1,84 @@
+﻿123456789012345678901234567890123456789012345<br />
+         1         2         3         4<br />
+<t size="~42">{xNome}</t>
+<br />
+<t size="~42">{xLgr} {nro}</t>
+<br /> 
+<t size="~42">{xBairro} - {xMun} - {CEP}</t>
+<br />
+<t size="~42">
+CNPJ:{CNPJ: 00.000.000/0000-00}  IE:{IE} <t />
+<br />
+<hr size="42" char="-" /><br />
+<t size="~42">DANFE NFC-e - Nota Fiscal Eletronica</t>
+<br />
+<t size="~42">para Consumidor Final</t>
+<br />
+<hr size="42" char="-" /><br />
+<t size="10">Codigo</t>
+<t size="20">Produto</t>
+<br />
+<t size="5">UN</t>
+<t size="10">Qtde.</t>
+<t size="10">Vl. Unit.<t/>
+<t size="-17">Vl. Total</t>
+<br />
+<hr size="42" char="-" /><br />
+<repeat name="Produtos">
+<t size="10">{cProd}</t>
+<t size="30">{xProd}</t>
+<br />
+<t size="5">{uCom}</t>
+<t size="10">{qCom:0.000}</t>
+<t size="10">{vUnCom}<t/>
+<t size="-17">{vProd}</t>
+<br />
+</repeat>
+<br />
+<hr size="42" char="-" /><br />
+<t size="30">Qtde. total de itens:</t><t size="-12">{qtdeTotalItens:000}</t><br />
+<t size="30">Total bruto de itens:</t><t size="-12">{valorTotalItens:0,00}</t><br />
+<t size="30">Total R$:</t><t size="-12">{vNF:0,00}</t><br />
+<hr size="42" char="=" /><br />
+<br />
+<t size="20">Forma de Pagamento</t>
+<t size="-22">Valor</t>
+<br />
+<hr size="42" char="-" /><br />
+<br />
+<t size="20">{cMP}</t>
+<t size="-22">{vMP:0,00}</t>
+<br />
+<hr size="42" char="-" /><br />
+<br />
+Informação dos Tributos Totais Incidentes<br />
+(conforme Lei Fed. 12.741/2012)<br />
+<t size="-42">R$ {vCFeLei12741}</t>
+<br />
+<hr size="42" char="-" /><br />
+<br />
+<t size="10">Numero</t>
+<t size="10">Serie</t>
+<t size="10">Emissao</t>
+<br />
+<hr size="42" char="-" /><br />
+<br />
+<t size="10">{nNF}</t>
+<t size="10">{nserie}</t>
+<t size="10">{dhEmi}</t>
+<br />
+<br />
+Consulte pela Chave de Acesso em www.fazenda.gob.br<br />
+<br />
+<t size="~42">CHAVE DE ACESSO</t>
+<br />
+<t size="~42">{ChaveAcesso}</t>
+<br />
+<hr size="42" char="-" /><br />
+<br />
+<br />
+<t size="~42">Consulta via leitor de QR Code</t>
+<br />
+<hr size="42" char="-" /><br />
+<br size="5" />
+<cut />

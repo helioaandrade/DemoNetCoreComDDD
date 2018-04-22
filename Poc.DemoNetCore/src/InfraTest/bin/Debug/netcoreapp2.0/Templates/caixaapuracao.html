@@ -1,0 +1,44 @@
+﻿<hr size="42" char="=" />
+<br />
+<t size="42">Apuracao de Caixa</t><br />
+<hr size="42" char="=" />
+<br />
+Número Caixa     : {CaixaID:000}
+<br />
+Data de Apuração : {DataApuracao:dd/MM/yyyy HH:mm}
+<br />
+<hr size="42" char="=" />
+<br />
+Movimentacao de Vendas
+<br />
+<hr size="42" char="=" /><br />
+<t size="12">FORMA PAGTO</t>
+<t size="~15">V.OPERADOR</t>
+<t size="~21">V.APURADO</t>
+<br />
+<hr size="42" char="=" /><br />
+<repeat name="ItensCaixaApuracao">
+<t size="15">{FormaPagamento}</t>
+<t size="-12">{ValorRegistrado:0.00}</t>
+<t size="-15">{ValorApurado:0.00}</t>
+<br />
+</repeat>
+<br />
+<hr size="42" char="=" /><br />
+<t size="15">Sub Total</t>
+<t size="-12">{ValorSubTotalGeralRegistrado:0.00}</t>
+<t size="-15">{ValorSubTotalGeralApurado:0.00}</t>
+<br />
+<hr size="42" char="=" /><br />
+<t size="12">Pagto Virtual</t>
+<t size="-28">{ValorVirtual:0.00}</t>
+<br />
+<hr size="42" char="=" /><br />
+<t size="15">TOTAL CAIXA</t>
+<t size="-12">{ValorTotalGeralRegistrado:0.00}</t>
+<t size="-15">{ValorTotalGeralApurado:0.00}</t>
+<br />
+<hr size="42" char="=" /><br />
+<br />
+<br size="2" />
+<cut />

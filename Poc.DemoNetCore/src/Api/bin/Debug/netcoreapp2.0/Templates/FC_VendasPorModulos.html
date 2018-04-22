@@ -1,0 +1,26 @@
+﻿<t size="-42">Vendas por modulo</t>
+<br />
+<hr size="42" char="=" /><br />
+<t size="10">Modulo</t>
+<t size="10">S/ Serv.</t>
+<t size="10">C/ Serv.</t>
+<t size="5">Qtde</t>
+<t size="-6">Media</t>
+<br />
+<hr size="42" char="=" /><br />
+<repeat name="ListaVendaModulo">
+<t size="10">{NomeModulo}</t>
+<t size="10">{ValorSemServico}</t>
+<t size="10">{ValorComServico}</t>
+<t size="5">{QuantidadePessoas}</t>
+<t size="-6">{TicketMedio}</t>
+<br />
+</repeat>
+<hr size="42" char="-" /><br />
+<t size="10">TOTAL</t>
+<t size="10">{VendasPorModulo.ValorTotalSemServico}</t>
+<t size="10">{VendasPorModulo.ValorTotalComServico}</t>
+<br />
+<hr size="42" char="=" /><br />
+<br size="2" />
+ 

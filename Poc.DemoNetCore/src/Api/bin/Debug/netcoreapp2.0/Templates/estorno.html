@@ -1,0 +1,38 @@
+﻿<t size="~45">ESTORNO DE ITENS (ESTOQ.)</t>
+<br/>
+<hr size ="42" char="="/>
+<br />
+Data: {Data:dd/MM/yyyy hh:mm}
+<br />
+Solicitante    : {Garcom}
+<br />
+Autorizado Por : {Caixa}
+<br />
+Mesa   : {MesaNumero}   
+<br />
+Pedido : {PedidoId}
+<br />
+Motivo : {Motivo}
+<br />
+<hr size="42" char="=" />
+<br/>
+<t size="28">PRODUTO</t><t size="-14">Qtd. Estornada</t>
+<!--<repeat name ="PedidoItens" >-->
+<br />
+<t size="28">{ProdutoNome}</t><t size="-14">{ProdutoQuantidade:0.00}</t>
+<br />
+Obs: {Observacao}
+<!--</repeat>-->
+<br />
+<hr char="=" size="42" />
+<br />
+<br size="5" />
+<hr char="_" /><br />
+ASSINATURA GERENCIA
+<br size="5" />
+<hr char="_" /><br />
+ASSINATURA SOLICITANTE
+<template src="footer"/>
+<br size="5"/>
+
+<cut/>

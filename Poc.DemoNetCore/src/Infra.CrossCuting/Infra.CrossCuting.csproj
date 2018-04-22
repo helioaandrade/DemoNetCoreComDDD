@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <Configurations>Debug;Release;aa</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>LinkedGourmet.FrenteDeCaixa.Infra.CrossCuting</AssemblyName>
+    <RootNamespace>LinkedGourmet.FrenteDeCaixa.Infra.CrossCuting</RootNamespace>
+  </PropertyGroup>
+
+</Project>

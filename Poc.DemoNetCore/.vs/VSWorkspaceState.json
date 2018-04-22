@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\Api\\Controllers\\ControleConfiguracaoSistema",
+    "\\src\\Domain.Core",
+    "\\src\\Domain.Core\\Commands",
+    "\\src\\Domain.Core\\Commands\\Handlers",
+    "\\src\\Domain.Core\\Commands\\Handlers\\Configuracao\\Impressoras",
+    "\\src\\Domain.Core\\Commands\\Inputs",
+    "\\src\\Domain.Core\\Entities",
+    "\\SyncTest"
+  ],
+  "SelectedNode": "\\src\\Domain.Core\\Commands\\Handlers\\ControleVersao",
+  "PreviewInSolutionExplorer": false
+}

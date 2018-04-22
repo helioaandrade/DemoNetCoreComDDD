@@ -1,0 +1,22 @@
+﻿<hr size="42" char="=" /><br />
+FECHAMENTO CAIXA (Vendas Estornadas - Estoque)<br />
+<hr size="42" char="=" /><br />
+<br />
+<hr size="42" char="=" /><br />
+<t size="28">Produto</t>
+<t size="8">Qtde.</t>
+<br />
+<hr size="42" char="=" /><br />
+<br />
+<repeat name="ListaEstornoEstoque">
+    <t size="28">{ProdutoID}-{NomeProduto}</t>
+    <t size="8">{Quantidade}</t>
+    <br />
+</repeat>
+<hr size="42" char="=" /><br />
+<br />
+<t size="28">Total -----></t>
+<t size="8">{VendasEstornadasEstoque.QuantidadeTotal}</t>
+<br />
+<hr size="42" char="=" /><br />
+<br size="2" />

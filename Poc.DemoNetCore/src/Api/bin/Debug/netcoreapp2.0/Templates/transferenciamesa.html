@@ -1,0 +1,29 @@
+﻿<hr char="=" size="42" /><br />
+<t size="~42">TRANSFERENCIA DE MESAS</t><br />
+<hr char="=" size="42" /><br />
+Data: {DataEntrada:dd/MM/yyyy HH:mm}<br />
+Solicitante: {Solicitante}<br />
+Autorizado Por: {Autorizador}<br />
+<br />
+<hr size="42" char="=" />
+<br />
+De   Mesa >  <t size="3">{MesaOrigem}</t> -  Pedido  >  {PedidoOrigem}
+<br />
+Para Mesa >  <t size="3">{MesaDestino}</t> -  Pedido  >  {PedidoOrigem}
+<br />
+<hr char="=" size="42" />
+<br />
+<t size="20">Qtd.</t><t size="22">Produto</t>
+<repeat name="PedidoItens">
+<br />
+<t size="20">{Quantidade:0.00}</t><t size="22">{Abreviacao}</t><br />
+</repeat>
+<hr char="=" size="42" />
+<br size="3" />
+<hr char="_" /><br />
+ASSINATURA GERENCIA
+<br size="3" />
+<hr char="_" /><br />
+ASSINATURA SOLICITANTE
+<br size="4" />
+<cut />

@@ -1,0 +1,21 @@
+﻿<hr size="42" char="=" /><br />
+<t size="20">FECHAMENTO CAIXA (Financeiro)</t><br />
+<hr size="42" char="=" /><br />
+<t size="13">Periodo:</t><t size="20">{DiaDaSemana}</t><br />
+<t size="13">Abertura:</t><t size="20">{DadosCaixa.DataAbertura:dd/MM/yyyy HH:mm}</t><br />
+<t size="13">Fechamento:</t><t size="20">{FraseDataFechamento}</t><br />
+<t size="13">Responsavel:</t><t size="20">{DadosCaixa.NomeFuncionario}</t><br />
+<template src="FC_MovimentacaoVendas" />
+<template src="FC_TotalizacoesCaixa" />
+<template show="ExibirVendasEmAberto" src="FC_VendasEmAberto" />
+<template show="ExibirVendasPorModulos" src="FC_VendasPorModulos" />
+<template show="ExibirVendasPorDepartamentos" src="FC_VendasPorDepartamentos" />
+<template show="ExibirServicoPorFuncionario" src="FC_ServicosPorFuncionarios" />
+<template show="ExibirCaixinhaPorFuncionario" src="FC_CaixinhaPorFuncionarios" />
+<template show="ExibirProdutos" src="FC_VendasProdutos" />
+<template show="ExibirEstornoEstoque" src="FC_EstornoEstoque" />
+<template show="ExibirEstornoPerda" src="FC_EstornoPerda" />
+<br size="4" />
+<cut />
+
+
