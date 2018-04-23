@@ -10,6 +10,9 @@ namespace Infra.Mapper
         {
             cfg.CreateMap<Pessoa, PessoaInputCommand>();
             cfg.CreateMap<PessoaInputCommand, Pessoa>();
+
+            cfg.CreateMap<CalculoHistoricoLog, CalculoHistoricoLogInputCommand>();
+            cfg.CreateMap<CalculoHistoricoLogInputCommand, CalculoHistoricoLog>();
         }
     }
 }

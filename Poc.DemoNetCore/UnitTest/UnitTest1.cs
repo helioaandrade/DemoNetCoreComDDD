@@ -85,7 +85,7 @@ namespace UnitTest
             try
             {
                 // Ação 
-                var response = ChamarApi(URL_BASE, ConstantesHelper.RECURSO_AMIGOS_MAIS_PROXIMOS, Method.GET);
+                var response = ChamarApi(URL_BASE, ConstantesHelper.RECURSO_AMIGOS_MAIS_PROXIMOS_DE_CADA_PESSOA, Method.GET);
 
                 // Validação
                 bool result = !String.IsNullOrEmpty(response.Content);
@@ -102,11 +102,43 @@ namespace UnitTest
         [TestMethod, Order(3)]
         public void Teste_Incluir_Pessoas()
         {
+            // TODO: Teste_Incluir_Pessoas()
+            //try
+            //{
+            //    // Ação 
+            //    var response = ChamarApi(URL_BASE, ConstantesHelper.RECURSO_INCLUIR_PESSOA, Method.POST);
+
+            //    // Validação
+            //    bool result = !String.IsNullOrEmpty(response.Content);
+
+            //    NUnit.Framework.Assert.True(result);
+            //}
+            //catch (Exception ex)
+            //{
+            //    string erro = ex.Message;
+            //    NUnit.Framework.Assert.True(false);
+            //}
         }
 
         [TestMethod, Order(5)]
         public void Teste_Incluir_Historico_Log()
         {
+            // TODO Teste_Incluir_Historico_Log()
+            //try
+            //{
+            //    // Ação 
+            //    var response = ChamarApi(URL_BASE, ConstantesHelper.RECURSO_INCLUIR_HISTORICO_LOG, Method.POST);
+
+            //    // Validação
+            //    bool result = !String.IsNullOrEmpty(response.Content);
+
+            //    NUnit.Framework.Assert.True(result);
+            //}
+            //catch (Exception ex)
+            //{
+            //    string erro = ex.Message;
+            //    NUnit.Framework.Assert.True(false);
+            //}
         }
 
         public IRestResponse ChamarApi(string urlBase, string recurso, RestSharp.Method metodo)

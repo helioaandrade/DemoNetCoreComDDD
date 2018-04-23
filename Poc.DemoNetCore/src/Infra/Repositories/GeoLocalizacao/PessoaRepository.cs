@@ -66,6 +66,8 @@ namespace Infra.Repositories.GeoLocalizacao
         {
             List<Tracking> tracking = new List<Tracking>();
 
+            double distancia = 0;
+
             try
             {
                 var pessoas = _uow._db.Pessoas.Where(x => x.Nome.Trim().ToLower() == Nome.Trim().ToLower());
@@ -91,7 +93,7 @@ namespace Infra.Repositories.GeoLocalizacao
                         Longitude = Convert.ToDouble(pessoa.Longitude)
                     };
 
-                    double distancia = TrackingHelper.CalculateDistance(localizacaoOrigem, localizacaoDestino);
+                    distancia = TrackingHelper.CalculateDistance(localizacaoOrigem, localizacaoDestino);
 
                     tracking.Add(new Tracking
                     {
@@ -99,6 +101,17 @@ namespace Infra.Repositories.GeoLocalizacao
                         Nome = pessoa.Nome,
                         Distancia = Math.Round(distancia, 2)
                     });
+
+                    // Salvar Histórico
+                    var historico = new CalculoHistoricoLog
+                    {
+                        PessoaOrigemID = pessoaOrigem.Id,
+                        PessoaDestinoID = pessoa.Id,
+                        Distancia = Convert.ToDecimal(Math.Round(distancia, 2))
+
+                    };
+
+                     var Novohistorico = new CalculoHistoricoLogRepository(_uow).Save(historico);
 
                 }
             }
@@ -112,8 +125,27 @@ namespace Infra.Repositories.GeoLocalizacao
 
         public List<LocalizacaoAmigos> ObterAmigosMaisProximoPorPessoa()
         {
-            // TODO:
             List<LocalizacaoAmigos> localizacaoAmigos = new List<LocalizacaoAmigos>();
+
+            var pessoas = _uow._db.Pessoas.ToList();
+
+            foreach (var pessoa in pessoas)
+            {
+                var ListaAmigosMaisProximoDaPessoaAtual = ObterAmigosMaisProximo(pessoa.Nome);
+
+                var amigo = new PessoaOrigem()
+                {
+                    PessoaId = pessoa.Id,
+                    Nome = pessoa.Nome
+                };
+
+                localizacaoAmigos.Add(new LocalizacaoAmigos
+                {
+                    Amigo = amigo,
+                    ListaAmigosProximos = ListaAmigosMaisProximoDaPessoaAtual
+                });
+
+            }
 
             return localizacaoAmigos;
 

@@ -9,11 +9,11 @@ namespace Poc.DemoNetCore.Domain.Core.Commands.Results.GeoLocalizacao
     {
         #region Propriedades
         public bool Sucesso { get; set; }
+        public int Id { get; set; }
         public int PessoaOrigemID { get; set; }
         public int PessoaDestinoID { get; set; }
-
         public decimal Distancia { get; set; }
-
+        public DateTime UltimaAtualizacao { get; set; }
         public string Resultado { get; set; }
 
         #endregion
@@ -41,6 +41,18 @@ namespace Poc.DemoNetCore.Domain.Core.Commands.Results.GeoLocalizacao
             PessoaOrigemID = pessoaOrigemId;
             PessoaDestinoID = pessoaDestino;
             Distancia = distancia;
+
+            Sucesso = true;
+        }
+
+        public CalculoHistoricoLogCommandResult(string resultado, int id, int pessoaOrigemId, int pessoaDestino, decimal distancia, DateTime ultimaAtualizacao)
+        {
+            Resultado = resultado;
+            Id = id;
+            PessoaOrigemID = pessoaOrigemId;
+            PessoaDestinoID = pessoaDestino;
+            Distancia = distancia;
+            UltimaAtualizacao = ultimaAtualizacao;
 
             Sucesso = true;
         }

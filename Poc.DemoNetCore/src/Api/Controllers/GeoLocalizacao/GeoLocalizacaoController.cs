@@ -162,7 +162,7 @@ namespace Api.Controllers.GeoLocalizacao
             {
                 var commandReturn = _calculoHistoricoCommandHandler.Handle(command);
 
-                return await Response("");
+                return await Response(commandReturn);
             }
             catch (Exception ex)
             {

@@ -11,6 +11,7 @@ namespace Poc.DemoNetCore.Domain.Core.Commands.Inputs.GeoLocalizacao
         public int PessoaOrigemID { get; set; }
         public int PessoaDestinoID { get; set; }
         public decimal Distancia { get; set; }
+       
    
         #endregion
 

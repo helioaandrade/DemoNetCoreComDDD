@@ -11,7 +11,7 @@ namespace Infra.Repositories.GeoLocalizacao
     public class CalculoHistoricoLogRepository : ICalculoHistoricoLogRepository
     {
         private Uow _uow;
-  
+
         public CalculoHistoricoLogRepository(Uow uow_)
         {
             _uow = uow_;
@@ -35,9 +35,19 @@ namespace Infra.Repositories.GeoLocalizacao
 
         public CalculoHistoricoLog Save(CalculoHistoricoLog entity)
         {
-            _uow._db.Add(entity);
-            _uow._db.SaveChanges();
-            return entity;
+            try
+            {
+                entity.UltimaAtualizacao = System.DateTime.Now;
+                _uow._db.Add(entity);
+                _uow._db.SaveChanges();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                string erro = ex.Message;
+                throw;
+            }
+
         }
 
         public List<CalculoHistoricoLog> Search(CalculoHistoricoLog entity)

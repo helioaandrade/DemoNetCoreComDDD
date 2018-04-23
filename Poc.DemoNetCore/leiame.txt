@@ -5,13 +5,13 @@ Projeto Domonstração NetCore com DDD
 
 Este projeto foi criado com Net Core com as seguintes caracteristicas:
 - Abordagem DDD
-- Web API com autentcação usando JWT
+- Web API com autenticação usando JWT
 - Banco de dados SQlite(mas pode ser usado qualquer banco, pois a camada de repositório é agnóstica)
 - ORM Entitity Framework Core(possibilidade de usar o SqlServer/MongoDb/Micro ORM Dapper, etc)
-- Padrões IOC + DI
+- Uso de Padrões IOC + DI  
 - Swagger integrado no projeto da camada da API para facilitar os testes das APIs
 - Variáveis de configuração estão definidas no arquivo AppSettings.Json
-- Testes unitários na camada Web Api
+- Testes unitários na camada Web Api(Utilização do frameworj NUnit)
 
 - Programa Console para testar as chamadas das Apis( foi utizado o componente RestSharp para consumar os serviços das APis)
    - install-package restsharp no projeto ConsoleTeste

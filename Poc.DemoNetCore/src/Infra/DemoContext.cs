@@ -1,4 +1,4 @@
-﻿ 
+﻿
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -37,8 +37,6 @@ namespace Infra
             });
 
             NormalizeTable(modelBuilder);
-
-
         }
 
         public static void NormalizeTable(ModelBuilder modelBuilder)
