@@ -13,5 +13,6 @@ namespace Poc.DemoNetCore.Domain.Core.Repositories.GeoLocalizacao
        , ILeitura<Pessoa>
     {
         List<Tracking> ObterAmigosMaisProximo(string Nome);
+        List<LocalizacaoAmigos> ObterAmigosMaisProximoPorPessoa();
     }
 }

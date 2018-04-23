@@ -54,7 +54,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain.Core.Shared\Domain.Shared.csproj" />
     <ProjectReference Include="..\Domain.Core\Domain.Core.csproj" />
     <ProjectReference Include="..\Infra.Ioc\Infra.Ioc.csproj" />
     <ProjectReference Include="..\Infra\Infra.csproj" />

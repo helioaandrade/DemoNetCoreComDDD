@@ -1,0 +1,11 @@
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\bin\Debug\netcoreapp2.0\ConsoleTeste.deps.json
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\bin\Debug\netcoreapp2.0\ConsoleTeste.runtimeconfig.json
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\bin\Debug\netcoreapp2.0\ConsoleTeste.runtimeconfig.dev.json
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\bin\Debug\netcoreapp2.0\ConsoleTeste.dll
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\obj\Debug\netcoreapp2.0\ConsoleTeste.csprojResolveAssemblyReference.cache
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\obj\Debug\netcoreapp2.0\ConsoleTeste.csproj.CoreCompileInputs.cache
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\obj\Debug\netcoreapp2.0\ConsoleTeste.AssemblyInfoInputs.cache
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\obj\Debug\netcoreapp2.0\ConsoleTeste.AssemblyInfo.cs
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\bin\Debug\netcoreapp2.0\ConsoleTeste.pdb
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\obj\Debug\netcoreapp2.0\ConsoleTeste.dll
+C:\Poc\Poc.DemoNetCore\ConsoleTeste\obj\Debug\netcoreapp2.0\ConsoleTeste.pdb

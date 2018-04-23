@@ -1,0 +1,14 @@
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.deps.json
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.runtimeconfig.json
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.runtimeconfig.dev.json
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.dll
+C:\Poc\Poc.DemoNetCore\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.csproj.CoreCompileInputs.cache
+C:\Poc\Poc.DemoNetCore\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.AssemblyInfoInputs.cache
+C:\Poc\Poc.DemoNetCore\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.AssemblyInfo.cs
+C:\Poc\Poc.DemoNetCore\UnitTest\bin\Debug\netcoreapp2.0\UnitTest.pdb
+C:\Poc\Poc.DemoNetCore\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.dll
+C:\Poc\Poc.DemoNetCore\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.pdb
+C:\Poc\Poc.DemoNetCore\UnitTest\obj\Debug\netcoreapp2.0\UnitTest.csprojResolveAssemblyReference.cache

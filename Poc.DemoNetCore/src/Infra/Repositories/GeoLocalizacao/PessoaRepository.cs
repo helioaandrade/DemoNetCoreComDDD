@@ -109,5 +109,14 @@ namespace Infra.Repositories.GeoLocalizacao
 
             return tracking.OrderBy(x => x.Distancia).Take(3).ToList();
         }
+
+        public List<LocalizacaoAmigos> ObterAmigosMaisProximoPorPessoa()
+        {
+            // TODO:
+            List<LocalizacaoAmigos> localizacaoAmigos = new List<LocalizacaoAmigos>();
+
+            return localizacaoAmigos;
+
+        }
     }
 }

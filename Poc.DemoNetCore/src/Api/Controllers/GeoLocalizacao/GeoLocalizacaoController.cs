@@ -90,6 +90,26 @@ namespace Api.Controllers.GeoLocalizacao
             }
         }
 
+        [EnableCors("Cors")]
+        [HttpGet]
+        [Route("api/GeoLocalizacao/AmigosMaisProximosPorPessoa/Listar")]
+        //[Authorize]
+        public async Task<IActionResult> ListarAmigosMaisProximosPorPessoa()
+        {
+            try
+            {
+                var result = _pessoaRepository.ObterAmigosMaisProximoPorPessoa();
+                return await Response(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    errors = ex.Message
+                });
+            }
+        }
 
         [EnableCors("Cors")]
         [HttpPost]

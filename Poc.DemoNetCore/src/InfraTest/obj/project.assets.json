@@ -9215,7 +9215,6 @@
     ".NETCoreApp,Version=v2.0": [
       "Infra >= 1.0.0",
       "Infra.Ioc >= 1.0.0",
-      "LinkedGourmet.FrenteDeCaixa.Domain.Shared >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 2.0.0",
       "Microsoft.Extensions.Configuration.EnvironmentVariables >= 2.0.0",
       "Microsoft.Extensions.Configuration.Json >= 2.0.0",
@@ -9266,9 +9265,6 @@
             },
             "C:\\Poc\\Poc.DemoNetCore\\src\\Infra\\Infra.csproj": {
               "projectPath": "C:\\Poc\\Poc.DemoNetCore\\src\\Infra\\Infra.csproj"
-            },
-            "C:\\Poc\\Poc.DemoNetCore\\src\\Domain.Core.Shared\\Domain.Shared.csproj": {
-              "projectPath": "C:\\Poc\\Poc.DemoNetCore\\src\\Domain.Core.Shared\\Domain.Shared.csproj"
             },
             "C:\\Poc\\Poc.DemoNetCore\\src\\Infra.Ioc\\Infra.Ioc.csproj": {
               "projectPath": "C:\\Poc\\Poc.DemoNetCore\\src\\Infra.Ioc\\Infra.Ioc.csproj"
