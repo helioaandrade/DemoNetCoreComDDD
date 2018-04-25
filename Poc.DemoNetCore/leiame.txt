@@ -11,15 +11,15 @@ Este projeto foi criado com Net Core com as seguintes caracteristicas:
 - Uso de Padrões IOC + DI  
 - Swagger integrado no projeto da camada da API para facilitar os testes das APIs
 - Variáveis de configuração estão definidas no arquivo AppSettings.Json
-- Testes unitários na camada Web Api(Utilização do frameworj NUnit)
+- Testes unitários na camada Web Api(Utilização do framework NUnit)
 
-- Programa Console para testar as chamadas das Apis( foi utizado o componente RestSharp para consumar os serviços das APis)
+- Programa Console para testar as chamadas das Apis( foi utizado o componente RestSharp para consumir os serviços das APis)
    - install-package restsharp no projeto ConsoleTeste
 
 ------------------------------------
 Testes Unitários
 -------------------------------------
-Os Testes Unitários tem o objetivo de testar as APis, e para tanto é necessãrio que a API esteja "Rodando"
+Os Testes Unitários tem o objetivo de testar as APis, e para tanto é necessário que a API esteja "Rodando"
 Deve-se dar um "Build" no Projeto API e em seguida "start" o serviço, usando o comando "dotnet Api.dll", como exibido abaixo:
 
 Por exemplo:
